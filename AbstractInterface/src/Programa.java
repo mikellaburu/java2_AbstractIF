@@ -45,6 +45,11 @@ public class Programa {
 					System.out.println("\tFrecuencia: " + port.fabricante());
 					System.out.println("\tFrecuencia: " + port.nucleos());
 					break;
+					
+				case 0:
+					System.out.println("Saliendo");
+					System.exit(-1);
+					break;
 			
 				default:
 					System.out.println("Opcion incorrecta");
