@@ -1,5 +1,5 @@
 
-public class Portatil extends Ordenador implements CPU{
+public final class Portatil extends Ordenador implements CPU{
 	
 	//atrib
 	private String marca;
@@ -29,6 +29,17 @@ public class Portatil extends Ordenador implements CPU{
 	public void setModelo(String referenciaModelo) {
 		
 		this.modelo = referenciaModelo;
+	}
+	
+	//metodos Interfaces
+	public abstract double frecuencia() {
+		return 2,5;
+	}
+	public abstract String fabricante() {
+		return "intel";
+	}
+	public abstract int nucleos() {
+		return 6;
 	}
 	
 }

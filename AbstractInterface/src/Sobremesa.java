@@ -23,12 +23,15 @@ public class Sobremesa extends Ordenador implements CPU {
 		this.fabricacion = tienda;
 	}
 	
-	//atributos de IF
-	
-	//Interfaz
-	public double frecuencia() {
-		return 2.8;
+	//metodos Interfaces
+	public abstract double frecuencia() {
+		return 3,2;
 	}
-	public 
+	public abstract String fabricante() {
+		return "amd";
+	}
+	public abstract int nucleos() {
+		return 4;
+	}
 	
 }

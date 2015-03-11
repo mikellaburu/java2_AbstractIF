@@ -1,5 +1,5 @@
 
-abstract class Ordenador {
+public abstract class Ordenador {
 	
 	private String tipo;
 	
@@ -17,7 +17,7 @@ abstract class Ordenador {
 		this.tipo = tipo;
 	}
 	
-	//metodos Interfaces
+
 	
 	
 }
